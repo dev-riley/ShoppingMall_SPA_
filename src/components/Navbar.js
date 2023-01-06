@@ -1,12 +1,12 @@
 import * as React from 'react';
-import styled from 'styled-components';
+import '../styles/tailwind.css';
 
 export default function Navbar() {
   return (
-    <nav className="navbar">
+    <div className="bg-red-300 h-10">
       <div className="navbar-container">
         <h1>navbar입니다.</h1>
       </div>
-    </nav>
+    </div>
   );
 }
